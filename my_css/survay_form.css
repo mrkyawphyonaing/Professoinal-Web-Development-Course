@@ -1,0 +1,23 @@
+body {
+    background: cyan;
+    margin-top: 40px;
+    height: 2000px;
+}
+
+.wrap div {
+    margin-left: 35%;
+}
+
+.wrap h1 {
+    margin-left: 35%;
+}
+
+.wrap div {
+    margin-top: 20px;
+    width: 500px;
+}
+
+h6 {
+    margin-left: 35%;
+    display: inline-block;
+}

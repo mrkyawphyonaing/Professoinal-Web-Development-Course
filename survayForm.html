@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurvayForm</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome_css/all.min.css">
+    <link rel="stylesheet" href="my_css/survay_form.css">
+</head>
+
+<body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <form>
+        <div class="wrap">
+            <h1>Survay Form</h1>
+            <div>
+                <label for="name"> <i class="fas fa-user me-1"></i> Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div>
+                <label for="age"> <i class="fas fa-location-arrow me-1"></i> Age</label>
+                <input type="text" class="form-control" id="age">
+            </div>
+            <div>
+                <label for="email"> <i class="fas fa-envelope me-1"></i> Email</label>
+                <input type="text" class="form-control" id="email">
+            </div>
+            <div>
+                <label for="describe"> <i class="fas fa-arrow-right me-1"></i> Which Option best described you?</label>
+                <select id="describe" class="form-select">
+                    <option value="student">Student</option>
+                    <option value="graduate">Graduate</option>
+                    <option value="teacher">Junior Developer</option>
+                    <option value="teacher">Senior Developer</option>
+                    <option value="teacher">Team Leader</option>
+                </select>
+            </div> <br>
+            <p>
+                <h6> <i class="fas fa-arrow-right"></i> Which you recommed our company for a best choice?</h6>
+            </p>
+            <div>
+
+                <input type="radio" id="first" name="your_answer" value="yes">
+                <label for="first">Yes</label> <br>
+                <input type="radio" id="second" name="your_answer" value="no">
+                <label for="second">No</label> <br>
+                <input type="radio" id="third" name="your_answer" value="maybe">
+                <label for="third">Maybe</label>
+
+            </div> <br>
+            <p>
+                <h6> <i class="fas fa-arrow-right"></i> Language and FrameWork Knowns(check all that apply)</h6>
+            </p>
+            <div>
+
+                <input type="checkbox" name="your_answer" id="java">
+                <label for="java">Java</label> <br>
+                <input type="checkbox" name="your_answer" id="python">
+                <label for="python">Python</label> <br>
+                <input type="checkbox" name="your_answer" id="c">
+                <label for="c">C</label> <br>
+                <input type="checkbox" name="your_answer" id="c++">
+                <label for="c++">C++</label> <br>
+                <input type="checkbox" name="your_answer" id="c#">
+                <label for="c++">C++</label> <br>
+                <input type="checkbox" name="your_answer" id="react">
+                <label for="react">React</label> <br>
+                <input type="checkbox" name="your_answer" id="angular">
+                <label for="angular">Angular</label> <br>
+                <input type="checkbox" name="your_answer" id="djanko">
+                <label for="djanko">Django</label> <br>
+                <input type="checkbox" name="your_answer" id="spring">
+                <label for="spring">Spring</label> <br>
+            </div> <br> <br>
+            <h6>Any Comments or Suggestions</h6>
+            <div>
+                <textarea class="form-control"></textarea>
+                <div class="form-text mb-5">Write your comments or Suggestions</div>
+                <button class="btn btn-primary">Sumbit</button>
+            </div>
+
+        </div>
+    </form>
+
+
+</body>
+
+</html>
