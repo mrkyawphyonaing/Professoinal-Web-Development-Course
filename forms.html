@@ -7,51 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="my_css/form.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome_css/all.min.css">
 </head>
 
 <body>
     <form action="">
-        <div class="mb-3">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" class="form-control">
-        </div>
-        <div class="mb-3">
-            <label for="address">Address</label>
-            <textarea id="address" class="form-control"></textarea>
-            <div class="form-text">Enter Your Full Address</div>
-        </div>
-        <div class="mb-3">
-            <label for="gender">Gender</label>
-            <select id="gender" class="form-select">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-        </div> <br>
-        <div class="input-group mb-3">
-            <input type="text" class="form-control">
-            <button class="btn btn-secondary">Search</button>
-        </div>
-        <label for="email">Enter Your Email Address</label>
-        <div class="input-group mb-3">
-            <input type="email" class="form-control" id="email">
-            <span class="input-group-text">@gmai.com</span>
-        </div>
-        <label for="price">Enter Your Price</label>
-        <div class="input-group mb-3">
-            <span class="input-group-text">$</span>
-            <input type="text" class="form-control" id="price">
-        </div>
-        <div class="form-floating mb-3">
-            <input type="text" id="yourname" class="form-control" placeholder="Your Name">
-            <label for="yourname">Your Name</label>
+        <div class="main_wrap">
+            <div class="wrap">
+                <div class="mb-3">
+                    <label for="name"> <i class="fas fa-user me-1"></i> Name</label>
+                    <input type="text" id="name" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="address"> <i class="fas fa-address-book me-1"></i> Address</label>
+                    <textarea id="address" class="form-control"></textarea>
+                    <div class="form-text">Enter Your Full Address</div>
+                </div>
+                <div class="mb-3">
+                    <label for="gender"> <i class="fas fa-genderless me-1"></i> Gender</label>
+                    <select id="gender" class="form-select">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div> <br>
+                <label class="lb3" for="search"> <i class="fas fa-search me-1"></i> Search Box</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="search">
+                    <button class="btn btn-secondary">Search</button>
+                </div>
+                <label class="lb1" for="email"> <i class="fas fa-envelope me-1"></i> Enter Your Email Address</label>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" id="email">
+                    <span class="input-group-text">@gmai.com</span>
+                </div>
+                <label class="lb2" for="price"> <i class="fas fa-dollar-sign me-1"></i> Enter Your Price</label>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">$</span>
+                    <input type="text" class="form-control" id="price">
+                </div>
+            </div>
+            <div class="demoFlex">
+                <div class="form-floating mb-3">
+                    <input type="text" id="yourname" class="form-control" placeholder="Your Name">
+                    <label for="yourname">Your Name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" id="emailAddress" class="form-control" placeholder="Eamil Address">
+                    <label for="emailAddress">Email Address</label>
+                </div>
+            </div>
+            <br>
+            <button class="btn btn-primary">Sumbit Form</button>
         </div>
 
-        <div class="form-floating mb-3">
-            <input type="text" id="emailAddress" class="form-control" placeholder="Eamil Address">
-            <label for="emailAddress">Email Address</label>
-        </div>
 
-        <button class="btn btn-primary">Sumbit Form</button>
     </form>
 </body>
 
